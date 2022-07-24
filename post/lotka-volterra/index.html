@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
-    <title>Project 2: Ball Image Classifier | Lyle Kenneth</title>
+    <title>The Lynx and the Hare | Lyle Kenneth</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="A ball classifier to identify balls from different sports">
+    <meta name="description" content="A predator-prey system">
     <meta name="generator" content="Hugo 0.101.0" />
     
     
@@ -29,20 +29,20 @@
 
     
     
-    <meta property="og:title" content="Project 2: Ball Image Classifier" />
-<meta property="og:description" content="A ball classifier to identify balls from different sports" />
+    <meta property="og:title" content="The Lynx and the Hare" />
+<meta property="og:description" content="A predator-prey system" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://schwarzschlyle.github.io/portfolio/post/project-2/" /><meta property="article:section" content="post" />
-<meta property="article:published_time" content="2017-04-10T11:00:59-04:00" />
-<meta property="article:modified_time" content="2017-04-10T11:00:59-04:00" /><meta property="og:site_name" content="Lyle Kenneth" />
+<meta property="og:url" content="https://schwarzschlyle.github.io/portfolio/post/lotka-volterra/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2022-06-24T11:00:59-04:00" />
+<meta property="article:modified_time" content="2022-06-24T11:00:59-04:00" /><meta property="og:site_name" content="Lyle Kenneth" />
 
-<meta itemprop="name" content="Project 2: Ball Image Classifier">
-<meta itemprop="description" content="A ball classifier to identify balls from different sports"><meta itemprop="datePublished" content="2017-04-10T11:00:59-04:00" />
-<meta itemprop="dateModified" content="2017-04-10T11:00:59-04:00" />
-<meta itemprop="wordCount" content="135">
-<meta itemprop="keywords" content="Data Science," /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Project 2: Ball Image Classifier"/>
-<meta name="twitter:description" content="A ball classifier to identify balls from different sports"/>
+<meta itemprop="name" content="The Lynx and the Hare">
+<meta itemprop="description" content="A predator-prey system"><meta itemprop="datePublished" content="2022-06-24T11:00:59-04:00" />
+<meta itemprop="dateModified" content="2022-06-24T11:00:59-04:00" />
+<meta itemprop="wordCount" content="411">
+<meta itemprop="keywords" content="Mechanistic Model," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="The Lynx and the Hare"/>
+<meta name="twitter:description" content="A predator-prey system"/>
 
 	
   </head>
@@ -54,7 +54,7 @@
   
 
   
-  <header class="cover bg-top" style="background-image: url('https://schwarzschlyle.github.io/portfolio/images/matrix_results.png');">
+  <header class="cover bg-top" style="background-image: url('https://schwarzschlyle.github.io/portfolio/images/abstract-hare-lynx.jfif');">
     <div class="bg-black-60">
       <nav class="pv3 ph3 ph4-ns" role="navigation">
   <div class="flex-l justify-between items-center center">
@@ -112,10 +112,10 @@
 
       <div class="tc-l pv6 ph3 ph4-ns">
         
-          <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">Project 2: Ball Image Classifier</h1>
+          <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">The Lynx and the Hare</h1>
           
             <h2 class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
-              A ball classifier to identify balls from different sports
+              A predator-prey system
             </h2>
           
         
@@ -150,21 +150,72 @@
   </div>
 
 
-      <h1 class="f1 athelas mt3 mb1">Project 2: Ball Image Classifier</h1>
+      <h1 class="f1 athelas mt3 mb1">The Lynx and the Hare</h1>
       
       
       
-      <time class="f6 mv4 dib tracked" datetime="2017-04-10T11:00:59-04:00">April 10, 2017</time>
+      <time class="f6 mv4 dib tracked" datetime="2022-06-24T11:00:59-04:00">June 24, 2022</time>
       
 
       
       
-        <span class="f6 mv4 dib tracked"> - One minute read </span>
-        <span class="f6 mv4 dib tracked"> - 135 words </span>
+        <span class="f6 mv4 dib tracked"> - 2 minutes read </span>
+        <span class="f6 mv4 dib tracked"> - 411 words </span>
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>For this example project I built a ball classifier to identify balls from different sports. This could be useful for someone who is new to sports from a certain country. They could take a picture of a ball and an app could serve them some information about the history and rules of the game. This is the underlying model for building something with those capabilities.</p>
-<p>I was able to get the model to predict the sport of the ball with 94% accuracy after minimal tuning. For most of the cases this would meet the need of an end user of the app. To get these results I used transfer learning on a CNN trained on resnet34. This created time efficiencies and solid results.</p>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Python" data-lang="Python"><span style="display:flex;"><span>x <span style="color:#f92672">=</span> <span style="color:#ae81ff">3.1415</span>
+</span></span></code></pre></div><p><strong>W</strong>e use a lot of tools to make sense of the world around us. Even without the advent of mathematics, people have been leveraging problem solving techniques, knowingly or unknowingly in one form or another, to provide solutions to problems or rationalizations to phenomena even as far back with ancient civilizations.</p>
+<p>For instance, our parents may have advised us not to shower in the rain as they have associated this with sickness. The patterns that they have seen on people getting sick when soaked in rainwater led to the conception of a model without the need to give explanation <em>why</em> it happens. It just does. This simple exposition of fact becomes a model from which a solution emerges.</p>
+<p>Of course, such simplistic model can be prone to inaccuracy; people may not get sick when soaked in the rain or people may get sick but not directly because of the rain. Mathematics provides a way of creating models systematically from which we can quantify a model&rsquo;s accuracy.</p>
+<p>There are two general ways of constructing a mathematical model:</p>
+<ul>
+<li>
+<p>A <strong>mechanistic model</strong> is a blablabla</p>
+</li>
+<li>
+<p>A <strong>phenomenological model</strong> is a blablabla</p>
+</li>
+</ul>
+<p>In this article, you will experience a brief tour of what a mathematical model looks like and how it is used to answer questions using <em>Python</em>.</p>
+<figure><img src="https://schwarzschlyle.github.io/portfolio/images/lynx-hare-cite.jpg"/><figcaption>
+            <h4>Lynx and hare, cite this</h4>
+        </figcaption>
+</figure>
+
+<p>Can we construct a model of a predator-prey system involing lynxes and hares? Will hares go extinct if lynxes continue to pursue the former as a primary food sources? We shall attempt to provide answers to these pressing questions by (i) properly defining a problem in terms of mathematical notations, (ii) constructing models to fit the phenomena, and (iii) making inferences and conclusions from the model.</p>
+<h1 id="1-define-your-problem">1. <strong>Define your problem.</strong></h1>
+<p>Trust me, properly defining a problem in terms mathematical statements is an art and is crucial. Failure to do so eliminates the purpose of constructing any model. A mathematical model is composed of three parts abbreviated as <strong>SQM</strong>.</p>
+<p><strong>S</strong>ystem.</p>
+<p><strong>Q</strong>uestion.</p>
+<p><strong>M</strong>athematical statements.</p>
+<h2 id="lotka-volterra">Lotka-Volterra</h2>
+<h1 id="2-construct-your-model">2. <strong>Construct your model.</strong></h1>
+<h2 id="mechanistic-models">Mechanistic models</h2>
+<ul>
+<li>Exploration of the Lotka-Volterra parameters</li>
+</ul>
+<h2 id="exploratory-descriptive-analysis">Exploratory descriptive analysis</h2>
+<ul>
+<li>Vector plots</li>
+<li>Explanation of fluid flow and fixed points</li>
+</ul>
+<h2 id="perturbation-analysis">Perturbation analysis</h2>
+<ul>
+<li>Perturbation about the two fixed points</li>
+</ul>
+<h2 id="linearization">Linearization</h2>
+<ul>
+<li>Jacobian calculation</li>
+<li>Decoupling and analytic solutions</li>
+</ul>
+<h2 id="rk4-numerical-solution">RK4 numerical solution</h2>
+<ul>
+<li>Pick a set of parameters</li>
+<li>Pick initial value closed to fixed points</li>
+<li>Solve the two scenario</li>
+</ul>
+<h1 id="3-make-assessments-and-infer-conclusions">3. <strong>Make assessments and infer conclusions.</strong></h1>
+<h1 id="conclusions">Conclusions</h1>
 <figure><img src="https://schwarzschlyle.github.io/portfolio/images/matrix_results.png"/><figcaption>
             <h4>Illustration from Victor Hugo et son temps (1881)</h4>
         </figcaption>
@@ -174,7 +225,7 @@
 <ul class="pa0">
   
    <li class="list di">
-     <a href="https://schwarzschlyle.github.io/portfolio/tags/data-science" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Data Science</a>
+     <a href="https://schwarzschlyle.github.io/portfolio/tags/mechanistic-model" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Mechanistic Model</a>
    </li>
   
 </ul>
@@ -188,17 +239,6 @@
 
 
 
-
-  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
-    <p class="f5 b mb3">Related</p>
-    <ul class="pa0 list">
-	   
-	     <li  class="mb2">
-          <a href="https://schwarzschlyle.github.io/portfolio/post/project-1/">Project 1: Data Science Salary Estimator</a>
-        </li>
-	    
-    </ul>
-</div>
 
 </aside>
 
