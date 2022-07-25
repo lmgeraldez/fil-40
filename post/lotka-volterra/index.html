@@ -39,7 +39,7 @@
 <meta itemprop="name" content="The Lynx and the Hare">
 <meta itemprop="description" content="A predator-prey system"><meta itemprop="datePublished" content="2022-06-24T11:00:59-04:00" />
 <meta itemprop="dateModified" content="2022-06-24T11:00:59-04:00" />
-<meta itemprop="wordCount" content="636">
+<meta itemprop="wordCount" content="1190">
 <meta itemprop="keywords" content="Mechanistic Model," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="The Lynx and the Hare"/>
 <meta name="twitter:description" content="A predator-prey system"/>
@@ -47,7 +47,7 @@
 	
   </head>
 
-  <body class="ma0 avenir bg-light-gray">
+  <body class="ma0 avenir bg-greyk">
 
     
    
@@ -205,39 +205,29 @@
 
       
       
-        <span class="f6 mv4 dib tracked"> - 3 minutes read </span>
-        <span class="f6 mv4 dib tracked"> - 636 words </span>
+        <span class="f6 mv4 dib tracked"> - 6 minutes read </span>
+        <span class="f6 mv4 dib tracked"> - 1190 words </span>
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Python" data-lang="Python"><span style="display:flex;"><span>x <span style="color:#f92672">=</span> <span style="color:#ae81ff">3.1415</span>
-</span></span></code></pre></div><p><img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" alt="Alt Text"></p>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links black pr4-l w-two-thirds-l"><figure><img src="https://schwarzschlyle.github.io/portfolio/lotka-manim-crop.gif"/>
+</figure>
+
 <blockquote>
-<p>[!notes] Meta info
-Comments</p>
+<p>Insert famous quote regarding mathematical modeling</p>
 </blockquote>
 <h2 id="introduction">Introduction</h2>
 <p><strong>W</strong>e use a lot of tools to make sense of the world around us. Even without the advent of mathematics, people have been leveraging problem solving techniques, knowingly or unknowingly in one form or another, to provide solutions to problems or rationalizations to phenomena.</p>
-<p>For instance, our parents may have advised us not to shower in the rain as they have associated this with sickness. The patterns that they have seen on people getting sick when soaked in rainwater led to the conception of a model usually even without the need to give explanation <em>why</em> it happens. It just does. This simple exposition of fact becomes a model from which a solution emerges.</p>
-<p>Of course, such simplistic model can be prone to inaccuracy; people may not get sick when soaked in the rain or people may get sick but not directly because of the rain. Mathematics provides a way of creating models systematically from which we can quantify a model&rsquo;s accuracy.</p>
-<h2 id="general-steps-to-construct-a-mathematical-model">General steps to construct a mathematical model</h2>
-<p>There are two general ways of constructing a mathematical model:</p>
-<ul>
-<li>
-<p><strong>Mechanistic models</strong> are</p>
-</li>
-<li>
-<p><strong>Phenomenological models</strong> are</p>
-</li>
-</ul>
+<p>For instance, our parents may have advised us not to shower in the rain as they have associated this with sickness. The patterns that they have seen on people getting sick when soaked in rainwater led to the conception of a model usually even without the need to give explanation as to <em>why</em> it happens. It just does. This simple fact exposition becomes a model from which a solution emerges.</p>
+<p>Of course, such simplistic model can be prone to inaccuracy; people may not necessariliy get sick when soaked in the rain or people may get sick but may not be directly because of the rain itself. Mathematics provides a way of creating models systematically in which its accuracy (and inaccuracy) can be properly quantified.</p>
+<h2 id="general-steps-in-constructing-a-mathematical-model">General steps in constructing a mathematical model</h2>
 <p>In this article, you will experience a brief tour of what a mathematical model looks like and how it is used to answer questions using <em>Python</em>.</p>
-<figure><img src="https://schwarzschlyle.github.io/portfolio/images/lynx-hare-cite.jpg"/><figcaption>
-            <h4>Lynx and hare, cite this</h4>
-        </figcaption>
+<figure><img src="https://schwarzschlyle.github.io/portfolio/images/hare-lynx-reim.jpg"/>
 </figure>
 
 <p>Consider a predator-prey system involing lynxes as predators and hares as prey. Will hares go extinct if lynxes continue to pursue the former as a primary food sources? Will lynxes also decrease in number when the population of hares diminishes?  We shall attempt to provide answers to these pressing questions by (i) properly defining a problem in terms of mathematical notations, (ii) constructing models to fit the phenomena, and (iii) making inferences and conclusions from the model.</p>
 <h2 id="1-define-your-problem-mathematically">1. <strong>Define your problem mathematically</strong></h2>
-<p>Trust me, properly defining a problem in terms of mathematical statements is an art and is crucial. Failure to do so eliminates the purpose of constructing any model. In essence, we need deal with our analysis in the arena of mathematics and borrowing its convenient toolkit for our convenience. This is done by defining the <strong>SQM</strong> elements: <strong>S</strong>ystem, <strong>Q</strong>uestion, and <strong>M</strong>athematical statements.</p>
+<p>Trust me, properly defining a problem in terms of mathematical statements is an art and is crucial. Failure to do so eliminates the purpose of constructing any model. In essence, we need deal with our analysis in the arena of mathematics and borrowing its convenient toolkit for our convenience.</p>
+<p>This is done by defining the <strong>SQM</strong> elements: <strong>S</strong>ystem, <strong>Q</strong>uestion, and <strong>M</strong>athematical statements.</p>
 <h3 id="heading"></h3>
 <h3 id="system"><strong>S</strong>ystem</h3>
 <p>For our predator-prey example, we can start by defining the following quantities.</p>
@@ -253,15 +243,47 @@ Comments</p>
 <li>$l(1845) = 30,090$ and $h(1845) = 19,580$</li>
 <li>$l(1846) = 45,150$ and $h(1846) = 19,600$</li>
 </ol>
-<p>Now, we have defined a mathematical machine that takes in the year as input and gives us the population of both lynx and hares as output denoted by the functions l(t) and h(t), respectively. Our next task is to convert our desired questions regarding the populations as a mathematical inquiry regarding these two functions.</p>
+<p>Now, we have defined a mathematical machine that takes in the year as input and gives us the population of both lynx and hares as output denoted by the functions $l(t)$ and $h(t)$, respectively. These functions are called the <em>state variables</em> of the system.</p>
+<p>Ultimately, a good model would be to find and these two functions for any arbitrary year $t$. Our next task is to convert our desired questions regarding the populations as a mathematical inquiry regarding these two functions.</p>
 <h3 id="question"><strong>Q</strong>uestion</h3>
-<p>Question</p>
+<p>After formulating our mathematical system, we shall now convert our question into a mathematical inquiry. For example, if we want to know if an extinction event happens at some point in time in the future, we have to ask the following:</p>
+<blockquote>
+<p>Would a $t$ exists where $h(t)=0$ and/or $l(t)=0$ ?</p>
+</blockquote>
+<p>Suppose we want to find out what happens in the population of the lynxes and hares at some long-term future, then we simply want to find out the following</p>
+<blockquote>
+<p>Find the limits $\lim_{t\to\infty}l(t)$ and $\lim_{t\to\infty}h(t)$</p>
+</blockquote>
+<p>Now that we have properly defined our our state variables and some questions regarding these state variables, we proceed to find out the associated mathematical statements which may lead us to some possible answers.</p>
 <h3 id="mathematical-statements"><strong>M</strong>athematical statements</h3>
+<p>There are two general ways of constructing a mathematical model:</p>
 <ul>
-<li>Exploration of the Lotka-Volterra parameters</li>
-<li>Use Manim</li>
+<li><strong>Mechanistic models</strong> can be constructed if some mathematical statements are based on a priori information about the system.</li>
 </ul>
-<h2 id="2-construct-a-model">2. <strong>Construct a model.</strong></h2>
+<p>For example, physics theories such as classical mechanics are governed by physical laws that are usually expressed in the language of <em>differential equations</em>.</p>
+<p>For instance, to predict the motion of a ball thrown by a basketball player given knowledge about the initial conditions (initial position, initial velocity, and  mass of the ball), Newton&rsquo;s law is mathematical statement which fully describes its future and can be expressed as</p>
+<p>$$
+\frac{\text{d}^2\vec{x}}{\text{d}t^2} = \frac{\vec{F}}{m}
+$$</p>
+<p>Basically, a set of mathematical statements already exists to describe a system where you can use to supply answers to a set of desired questions. With these, mechanistic models are also called <em>white-box models</em>. The realm of physics is essentially one giant compilation of mechanistic models encoding the laws of nature.</p>
+<p>A typical workflow for construct these kinds of model is to find out an appropriate set of differential equations governing a system (or even deriving your own), solving them through various techniques, and analyzing the solution as a proxy for the actual phenomena.</p>
+<ul>
+<li><strong>Phenomenological models</strong> can be constructed if there are no a priori information about the system - no pre-existing differential equations to govern its dynamics.</li>
+</ul>
+<p>One can, instead, construct a model based on experimental data only usually described in the language <em>statistics</em>. A commonly used method is the least-square linear regression where a line of best fit is used to model a set of data which corresponds to the least amount of errors. These form of modeling is mainly used for data science and machine learning algorithms.</p>
+<p>A typical workflow would be to clean a dataset, construct a machine learning model, and use that model to provide insights regarding the data typically in the context of a business use-case.</p>
+<p>Let&rsquo;s go back to our specific example: the predator-prey system. Luckily for us, clever people already got their hands dirty and gave us a neat differential equation for this system. Such equation is called the <strong>Lotka-Volterra model</strong> which can be expressed as</p>
+<p>$$
+\frac{\text{d}h(t)}{\text{d}t} = \alpha h(t) - \beta h(t) l(t)
+$$
+$$
+\frac{\text{d}l(t)}{\text{d}t} = \delta h(t) l(t) - \gamma l(t)
+$$</p>
+<p>Evidently, we will be dealing with a mechanistic model. In theory, this is all that we need, mathematically, to model the population of both lynxes and hares for all instant in time. In practice, however, we still need to unpack the the system of equations imply and express it in a form that is conveniently accessible.</p>
+<h2 id="2-model-construction-and-exploration">2. <strong>Model construction and exploration</strong></h2>
+<figure><img src="https://schwarzschlyle.github.io/portfolio/images/hare-lynx-reim.jpg"/>
+</figure>
+
 <h3 id="heading-1"></h3>
 <h3 id="exploratory-descriptive-analysis">Exploratory descriptive analysis</h3>
 <ul>
@@ -311,7 +333,7 @@ $$</p>
       <nav id="TableOfContents">
   <ul>
     <li><a href="#introduction">Introduction</a></li>
-    <li><a href="#general-steps-to-construct-a-mathematical-model">General steps to construct a mathematical model</a></li>
+    <li><a href="#general-steps-in-constructing-a-mathematical-model">General steps in constructing a mathematical model</a></li>
     <li><a href="#1-define-your-problem-mathematically">1. <strong>Define your problem mathematically</strong></a>
       <ul>
         <li><a href="#heading"></a></li>
@@ -320,7 +342,7 @@ $$</p>
         <li><a href="#mathematical-statements"><strong>M</strong>athematical statements</a></li>
       </ul>
     </li>
-    <li><a href="#2-construct-a-model">2. <strong>Construct a model.</strong></a>
+    <li><a href="#2-model-construction-and-exploration">2. <strong>Model construction and exploration</strong></a>
       <ul>
         <li><a href="#heading-1"></a></li>
         <li><a href="#exploratory-descriptive-analysis">Exploratory descriptive analysis</a></li>
