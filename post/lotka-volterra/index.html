@@ -6,7 +6,7 @@
     
     <title>The Lynx and the Hare | Lyle Kenneth</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="A predator-prey system">
+    <meta name="description" content="Predator-prey system: a quick tour of mathematical modeling">
     <meta name="generator" content="Hugo 0.101.0" />
     
     
@@ -30,19 +30,19 @@
     
     
     <meta property="og:title" content="The Lynx and the Hare" />
-<meta property="og:description" content="A predator-prey system" />
+<meta property="og:description" content="Predator-prey system: a quick tour of mathematical modeling" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://schwarzschlyle.github.io/portfolio/post/lotka-volterra/" /><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2022-06-24T11:00:59-04:00" />
 <meta property="article:modified_time" content="2022-06-24T11:00:59-04:00" /><meta property="og:site_name" content="Lyle Kenneth" />
 
 <meta itemprop="name" content="The Lynx and the Hare">
-<meta itemprop="description" content="A predator-prey system"><meta itemprop="datePublished" content="2022-06-24T11:00:59-04:00" />
+<meta itemprop="description" content="Predator-prey system: a quick tour of mathematical modeling"><meta itemprop="datePublished" content="2022-06-24T11:00:59-04:00" />
 <meta itemprop="dateModified" content="2022-06-24T11:00:59-04:00" />
-<meta itemprop="wordCount" content="1190">
+<meta itemprop="wordCount" content="1324">
 <meta itemprop="keywords" content="Mechanistic Model," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="The Lynx and the Hare"/>
-<meta name="twitter:description" content="A predator-prey system"/>
+<meta name="twitter:description" content="Predator-prey system: a quick tour of mathematical modeling"/>
 
 	
   </head>
@@ -115,7 +115,7 @@
           <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">The Lynx and the Hare</h1>
           
             <h2 class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
-              A predator-prey system
+              Predator-prey system: a quick tour of mathematical modeling
             </h2>
           
         
@@ -205,8 +205,8 @@
 
       
       
-        <span class="f6 mv4 dib tracked"> - 6 minutes read </span>
-        <span class="f6 mv4 dib tracked"> - 1190 words </span>
+        <span class="f6 mv4 dib tracked"> - 7 minutes read </span>
+        <span class="f6 mv4 dib tracked"> - 1324 words </span>
       
     </header>
     <div class="nested-copy-line-height lh-copy serif f4 nested-links black pr4-l w-two-thirds-l"><figure><img src="https://schwarzschlyle.github.io/portfolio/lotka-manim-crop.gif"/>
@@ -226,7 +226,7 @@
 
 <p>Consider a predator-prey system involing lynxes as predators and hares as prey. Will hares go extinct if lynxes continue to pursue the former as a primary food sources? Will lynxes also decrease in number when the population of hares diminishes?  We shall attempt to provide answers to these pressing questions by (i) properly defining a problem in terms of mathematical notations, (ii) constructing models to fit the phenomena, and (iii) making inferences and conclusions from the model.</p>
 <h2 id="1-define-your-problem-mathematically">1. <strong>Define your problem mathematically</strong></h2>
-<p>Trust me, properly defining a problem in terms of mathematical statements is an art and is crucial. Failure to do so eliminates the purpose of constructing any model. In essence, we need deal with our analysis in the arena of mathematics and borrowing its convenient toolkit for our convenience.</p>
+<p>Trust me, properly defining a problem in terms of mathematical statements is a crucial art. Failure to do so eliminates the purpose of constructing any model. In essence, we need deal with our analysis in the arena of mathematics and borrowing its convenient toolkit for our convenience.</p>
 <p>This is done by defining the <strong>SQM</strong> elements: <strong>S</strong>ystem, <strong>Q</strong>uestion, and <strong>M</strong>athematical statements.</p>
 <h3 id="heading"></h3>
 <h3 id="system"><strong>S</strong>ystem</h3>
@@ -244,7 +244,10 @@
 <li>$l(1846) = 45,150$ and $h(1846) = 19,600$</li>
 </ol>
 <p>Now, we have defined a mathematical machine that takes in the year as input and gives us the population of both lynx and hares as output denoted by the functions $l(t)$ and $h(t)$, respectively. These functions are called the <em>state variables</em> of the system.</p>
-<p>Ultimately, a good model would be to find and these two functions for any arbitrary year $t$. Our next task is to convert our desired questions regarding the populations as a mathematical inquiry regarding these two functions.</p>
+<p>Don&rsquo;t be fooled. It may be as simple as simply defining that state variables of interests are, of course, the number of lynxes and hares. However, it may be tricky in many practical problems.</p>
+<p>Physicists usually draw tons of diagrams, employing symmetries, identities, and mathematical gymnastics to properly pin down state variables which appropriately describes a system.</p>
+<p>Data analysis in the context of business requires domain-specific intuitions to appropriately define business metrics.</p>
+<p>For our purposes in this mini-project, our next task is to convert our desired questions regarding the populations as a mathematical inquiry regarding these two functions.</p>
 <h3 id="question"><strong>Q</strong>uestion</h3>
 <p>After formulating our mathematical system, we shall now convert our question into a mathematical inquiry. For example, if we want to know if an extinction event happens at some point in time in the future, we have to ask the following:</p>
 <blockquote>
@@ -261,7 +264,7 @@
 <li><strong>Mechanistic models</strong> can be constructed if some mathematical statements are based on a priori information about the system.</li>
 </ul>
 <p>For example, physics theories such as classical mechanics are governed by physical laws that are usually expressed in the language of <em>differential equations</em>.</p>
-<p>For instance, to predict the motion of a ball thrown by a basketball player given knowledge about the initial conditions (initial position, initial velocity, and  mass of the ball), Newton&rsquo;s law is mathematical statement which fully describes its future and can be expressed as</p>
+<p>Predicting the motion of a ball thrown by a basketball player given knowledge about the initial conditions (initial position, initial velocity, and  mass of the ball) can be achieved using Newton&rsquo;s laws -  a mathematical statement which fully describe the ball&rsquo;s future and can be expressed as</p>
 <p>$$
 \frac{\text{d}^2\vec{x}}{\text{d}t^2} = \frac{\vec{F}}{m}
 $$</p>
@@ -280,7 +283,9 @@ $$
 \frac{\text{d}l(t)}{\text{d}t} = \delta h(t) l(t) - \gamma l(t)
 $$</p>
 <p>Evidently, we will be dealing with a mechanistic model. In theory, this is all that we need, mathematically, to model the population of both lynxes and hares for all instant in time. In practice, however, we still need to unpack the the system of equations imply and express it in a form that is conveniently accessible.</p>
+<p>Students sometimes sardonically say that a problem is already considered solved when you have set things up by defining appropriate state variables and finding out the relevant mathematical statements governing these variables. The rest are simply &ldquo;just maths&rdquo;. While this may be true for textbook problems which often have simple analytic solution, non-ideal problems often requires much more mathematical trickery to access the desired model from these statements.</p>
 <h2 id="2-model-construction-and-exploration">2. <strong>Model construction and exploration</strong></h2>
+<p>(Discuss calculus courses, etc.)</p>
 <figure><img src="https://schwarzschlyle.github.io/portfolio/images/hare-lynx-reim.jpg"/>
 </figure>
 
