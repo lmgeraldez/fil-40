@@ -39,7 +39,7 @@
 <meta itemprop="name" content="The Lynx and the Hare">
 <meta itemprop="description" content="Predator-prey system: a quick tour of mathematical modeling"><meta itemprop="datePublished" content="2022-06-24T11:00:59-04:00" />
 <meta itemprop="dateModified" content="2022-06-24T11:00:59-04:00" />
-<meta itemprop="wordCount" content="1324">
+<meta itemprop="wordCount" content="1409">
 <meta itemprop="keywords" content="Mechanistic Model," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="The Lynx and the Hare"/>
 <meta name="twitter:description" content="Predator-prey system: a quick tour of mathematical modeling"/>
@@ -206,7 +206,7 @@
       
       
         <span class="f6 mv4 dib tracked"> - 7 minutes read </span>
-        <span class="f6 mv4 dib tracked"> - 1324 words </span>
+        <span class="f6 mv4 dib tracked"> - 1409 words </span>
       
     </header>
     <div class="nested-copy-line-height lh-copy serif f4 nested-links black pr4-l w-two-thirds-l"><figure><img src="https://schwarzschlyle.github.io/portfolio/lotka-manim-crop.gif"/>
@@ -274,7 +274,7 @@ $$</p>
 <li><strong>Phenomenological models</strong> can be constructed if there are no a priori information about the system - no pre-existing differential equations to govern its dynamics.</li>
 </ul>
 <p>One can, instead, construct a model based on experimental data only usually described in the language <em>statistics</em>. A commonly used method is the least-square linear regression where a line of best fit is used to model a set of data which corresponds to the least amount of errors. These form of modeling is mainly used for data science and machine learning algorithms.</p>
-<p>A typical workflow would be to clean a dataset, construct a machine learning model, and use that model to provide insights regarding the data typically in the context of a business use-case.</p>
+<p>A typical workflow would be to clean a dataset, construct a machine learning model, and use that model to provide insights regarding the data typically in the context of a business use-case to predict prices or to categorize objects, for example.</p>
 <p>Let&rsquo;s go back to our specific example: the predator-prey system. Luckily for us, clever people already got their hands dirty and gave us a neat differential equation for this system. Such equation is called the <strong>Lotka-Volterra model</strong> which can be expressed as</p>
 <p>$$
 \frac{\text{d}h(t)}{\text{d}t} = \alpha h(t) - \beta h(t) l(t)
@@ -285,40 +285,45 @@ $$</p>
 <p>Evidently, we will be dealing with a mechanistic model. In theory, this is all that we need, mathematically, to model the population of both lynxes and hares for all instant in time. In practice, however, we still need to unpack the the system of equations imply and express it in a form that is conveniently accessible.</p>
 <p>Students sometimes sardonically say that a problem is already considered solved when you have set things up by defining appropriate state variables and finding out the relevant mathematical statements governing these variables. The rest are simply &ldquo;just maths&rdquo;. While this may be true for textbook problems which often have simple analytic solution, non-ideal problems often requires much more mathematical trickery to access the desired model from these statements.</p>
 <h2 id="2-model-construction-and-exploration">2. <strong>Model construction and exploration</strong></h2>
-<p>(Discuss calculus courses, etc.)</p>
-<figure><img src="https://schwarzschlyle.github.io/portfolio/images/hare-lynx-reim.jpg"/>
-</figure>
-
 <h3 id="heading-1"></h3>
+<p>(Initial discussion on why we learn maths)</p>
+<p>(Only choose parameters when necessary)</p>
 <h3 id="exploratory-descriptive-analysis">Exploratory descriptive analysis</h3>
 <ul>
-<li>Vector plots</li>
-<li>Explanation of fluid flow and fixed points</li>
+<li>Initialization python codes</li>
+<li>Coding the vector plot</li>
+<li>Analyzing the vector plot</li>
 </ul>
 <h3 id="perturbation-analysis">Perturbation analysis</h3>
 <ul>
-<li>Perturbation about the two fixed points</li>
+<li>Perturbation theory explanation</li>
+<li>Coding perturbation theory</li>
+<li>Explanation of results</li>
+<li>Coding the vector plots of results</li>
+<li>Analyzing the vector plots</li>
+<li>Plot time-series plots for h(t) and l(t): one for each fixed point.</li>
 </ul>
 <h3 id="linearization">Linearization</h3>
 <ul>
-<li>Jacobian calculation</li>
-<li>Decoupling and analytic solutions</li>
+<li>Linearization theory</li>
+<li>Coding the Jacobian calculator</li>
+<li>Jacobian analysis</li>
+<li>Show that this is the same with perturbation results.</li>
+<li>Use dynamical systems fixed points classification and rationalize initial EDA vector plots</li>
+<li>Plot parameter space with fixed-point classification boundaries.</li>
 </ul>
 <h3 id="rk4-numerical-solution">RK4 numerical solution</h3>
 <ul>
-<li>Pick a set of parameters</li>
-<li>Pick initial value closed to fixed points</li>
-<li>Solve the two scenario</li>
+<li>Pick a set of parameters.</li>
+<li>Pick initial value for each fixed points.</li>
+<li>Solve the two systems: one for each fixed point.</li>
+<li>Plot time-series plots for h(t) and l(t): one for each fixed point.</li>
 </ul>
 <h2 id="3-make-assessments-and-infer-conclusions">3. <strong>Make assessments and infer conclusions.</strong></h2>
-<p>$$
-\vec{f}=m\vec{a}
-$$</p>
-<figure><img src="https://schwarzschlyle.github.io/portfolio/images/matrix_results.png"/><figcaption>
-            <h4>Illustration from Victor Hugo et son temps (1881)</h4>
-        </figcaption>
-</figure>
-
+<ul>
+<li>Import real data</li>
+<li>Write conclusion</li>
+</ul>
 <p><a href="https://github.com/PlayingNumbers/ds_salary_proj">Link to GitHub Repository</a></p>
 <ul class="pa0">
   
