@@ -8,12 +8,25 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 24 Jun 2022 11:00:59 -0400</lastBuildDate><atom:link href="https://schwarzschlyle.github.io/portfolio/tags/mechanistic-model/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>The Art of Dimensional Analysis</title>
+      <title>Close Enough</title>
+      <link>https://schwarzschlyle.github.io/portfolio/post/perturbation/</link>
+      <pubDate>Fri, 24 Jun 2022 11:00:59 -0400</pubDate>
+      
+      <guid>https://schwarzschlyle.github.io/portfolio/post/perturbation/</guid>
+      <description>Insert famous quote regarding mathematical modeling
+Planned Content
+Root-finding perturbation theory IVP perturbation theory Quantum Mechanics Perturbation Theory Link to GitHub Repository</description>
+    </item>
+    
+    <item>
+      <title>The Art of Guessing</title>
       <link>https://schwarzschlyle.github.io/portfolio/post/dimensional-analysis/</link>
       <pubDate>Fri, 24 Jun 2022 11:00:59 -0400</pubDate>
       
       <guid>https://schwarzschlyle.github.io/portfolio/post/dimensional-analysis/</guid>
       <description>Insert famous quote regarding mathematical modeling
+Content
+Introduction Dimension Checking Dimensional Reduction Nondimensionalization Similarity Transformation use BuckinghamPy
 Link to GitHub Repository</description>
     </item>
     
