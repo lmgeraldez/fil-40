@@ -15,7 +15,10 @@
       <guid>https://schwarzschlyle.github.io/portfolio/post/perturbation/</guid>
       <description>Insert famous quote regarding mathematical modeling
 Planned Content
-Root-finding perturbation theory IVP perturbation theory Quantum Mechanics Perturbation Theory Link to GitHub Repository</description>
+Root-finding perturbation theory (Pick one)
+IVP perturbation theory (Pick one)
+Quantum Mechanics Perturbation Theory
+Link to GitHub Repository</description>
     </item>
     
     <item>
@@ -26,7 +29,12 @@ Root-finding perturbation theory IVP perturbation theory Quantum Mechanics Pertu
       <guid>https://schwarzschlyle.github.io/portfolio/post/dimensional-analysis/</guid>
       <description>Insert famous quote regarding mathematical modeling
 Content
-Introduction Dimension Checking Dimensional Reduction Nondimensionalization Similarity Transformation use BuckinghamPy
+Introduction
+Dimension Checking (Intro level physics)
+Dimensional Reduction (Bomb blast and supernova)
+Nondimensionalization (Pick one from example)
+Similarity Transformation (Solve PDE)
+use BuckinghamPy
 Link to GitHub Repository</description>
     </item>
     
