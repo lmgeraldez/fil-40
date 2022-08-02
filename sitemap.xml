@@ -42,6 +42,16 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://schwarzschlyle.github.io/portfolio/post/sir-model/</loc>
+    <lastmod>2021-06-24T11:00:59-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://schwarzschlyle.github.io/portfolio/post/pde-sim/</loc>
+    <lastmod>2020-06-24T11:00:59-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://schwarzschlyle.github.io/portfolio/tags/data-science/</loc>
     <lastmod>2019-06-24T11:00:59-04:00</lastmod>
     <changefreq>monthly</changefreq>
