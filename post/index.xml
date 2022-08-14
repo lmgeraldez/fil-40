@@ -1,90 +1,51 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Articles on Lyle Kenneth</title>
+    <title>Mga Natutunan on Lyle Kenneth</title>
     <link>https://schwarzschlyle.github.io/portfolio/post/</link>
-    <description>Recent content in Articles on Lyle Kenneth</description>
+    <description>Recent content in Mga Natutunan on Lyle Kenneth</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 02 Mar 2019 12:00:00 -0500</lastBuildDate><atom:link href="https://schwarzschlyle.github.io/portfolio/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Close Enough</title>
-      <link>https://schwarzschlyle.github.io/portfolio/post/perturbation/</link>
-      <pubDate>Fri, 24 Jun 2022 11:00:59 -0400</pubDate>
+      <title>Kalikasan at Kasaysayan ng Wikang Filipino</title>
+      <link>https://schwarzschlyle.github.io/portfolio/post/kal-kas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://schwarzschlyle.github.io/portfolio/post/perturbation/</guid>
-      <description>Insert famous quote regarding mathematical modeling
-Focused required time: 2 days
-Planned Content
-Root-finding perturbation theory (Pick one)
-IVP perturbation theory (Pick one)
-Quantum Mechanics Perturbation Theory
-Link to GitHub Repository</description>
+      <guid>https://schwarzschlyle.github.io/portfolio/post/kal-kas/</guid>
+      <description>Insert quote from author
+Tagalog vs Pilipino vs Filipino Akala ko&amp;hellip; Noon, ang pagkakaunawa ko ay Pilipino ang tawag sa mamamayang Pilipino, Filipino ang tawag sa wika ng mga Pilipino kung ang banyaga ang babanggit nito at Tagalog naman kung ang mga Pilipino ang tatawag nito.
+Yun pala&amp;hellip; Parehong Tagalog ang tawag sa wika at mamamayang naninirahan sa Manila. Pilipino ang tawag sa mamayang Pilipino at sa wikang Tagalog ng launang ginawa itong pambansang wika.</description>
     </item>
     
     <item>
-      <title>The Art of Guessing</title>
-      <link>https://schwarzschlyle.github.io/portfolio/post/dimensional-analysis/</link>
-      <pubDate>Fri, 24 Jun 2022 11:00:59 -0400</pubDate>
+      <title>Wika Bilang Panlipunang Penomenon</title>
+      <link>https://schwarzschlyle.github.io/portfolio/post/pan-pen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://schwarzschlyle.github.io/portfolio/post/dimensional-analysis/</guid>
-      <description>Insert famous quote regarding mathematical modeling
-Focused required time: 1 day
-Content
-Introduction
-Dimension Checking (Intro level physics)
-Dimensional Reduction (Bomb blast and supernova)
-Nondimensionalization (Pick one from example)
-Similarity Transformation (Solve PDE)
-use BuckinghamPy
-Link to GitHub Repository</description>
+      <guid>https://schwarzschlyle.github.io/portfolio/post/pan-pen/</guid>
+      <description> Insert quote from author
+Gamit sa Lipunan Akala ko&amp;hellip; Yun pala&amp;hellip; Tiyak na Istruktura Akala ko&amp;hellip; Yun pala&amp;hellip; Dayalekto vs Wika Akala ko&amp;hellip; Yun pala&amp;hellip; </description>
     </item>
     
     <item>
-      <title>The Lynx and the Hare</title>
-      <link>https://schwarzschlyle.github.io/portfolio/post/lotka-volterra/</link>
-      <pubDate>Fri, 24 Jun 2022 11:00:59 -0400</pubDate>
+      <title>Wika sa Kultura ng Panlipunang Pilipino</title>
+      <link>https://schwarzschlyle.github.io/portfolio/post/kultura/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://schwarzschlyle.github.io/portfolio/post/lotka-volterra/</guid>
-      <description>Insert famous quote regarding mathematical modeling
-Introduction We use a lot of tools to make sense of the world around us. Even without the advent of mathematics, people have been leveraging problem solving techniques, knowingly or unknowingly in one form or another, to provide solutions to problems or rationalizations to phenomena.
-For instance, our parents may have advised us not to shower in the rain as they have associated this with sickness.</description>
+      <guid>https://schwarzschlyle.github.io/portfolio/post/kultura/</guid>
+      <description>Insert quote from author
+Pahayag-Pahiwatig Akala ko&amp;hellip; Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
     </item>
     
     <item>
-      <title>Warped and Weird</title>
-      <link>https://schwarzschlyle.github.io/portfolio/post/gr-overview/</link>
-      <pubDate>Fri, 24 Jun 2022 11:00:59 -0400</pubDate>
+      <title>Wikang Filipino sa mga Panlipunang Institusyon</title>
+      <link>https://schwarzschlyle.github.io/portfolio/post/pan-ins/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://schwarzschlyle.github.io/portfolio/post/gr-overview/</guid>
-      <description>Insert famous quote regarding mathematical modeling
-Finish L26, summarize here in one article.
-Focused required time: 1 day
-Link to GitHub Repository</description>
-    </item>
-    
-    <item>
-      <title>Covid</title>
-      <link>https://schwarzschlyle.github.io/portfolio/post/sir-model/</link>
-      <pubDate>Thu, 24 Jun 2021 11:00:59 -0400</pubDate>
-      
-      <guid>https://schwarzschlyle.github.io/portfolio/post/sir-model/</guid>
-      <description>Insert famous quote regarding mathematical modeling
-Finish L26, summarize here in one article.
-Focused required time: 1 day
-Link to GitHub Repository</description>
-    </item>
-    
-    <item>
-      <title>Crank-Nicolson</title>
-      <link>https://schwarzschlyle.github.io/portfolio/post/pde-sim/</link>
-      <pubDate>Wed, 24 Jun 2020 11:00:59 -0400</pubDate>
-      
-      <guid>https://schwarzschlyle.github.io/portfolio/post/pde-sim/</guid>
-      <description>Insert famous quote regarding mathematical modeling
-Finish L26, summarize here in one article.
-Focused required time: 1 day
-Link to GitHub Repository</description>
+      <guid>https://schwarzschlyle.github.io/portfolio/post/pan-ins/</guid>
+      <description>Insert quote from author
+Conyo Akala ko&amp;hellip; Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
     </item>
     
   </channel>
